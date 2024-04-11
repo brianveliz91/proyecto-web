@@ -1,0 +1,67 @@
+main {
+    background-color: thistle;
+    min-height: 10vh;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 40px 100px;
+
+
+
+}
+/* con esto le dijimos que de fondo nuestro proyecto tengo un color de fondo y un tamaño del cuadro de color especifico*/
+/* con border le agregamos un recuadro y le dijimos que sea de color negro (solid black) con tamaño 1pixel (1px).*/
+/*
+eje x -> izquierda a derecha
+eje y -> de arriba a abajo
+
+esta es la forma de decirle la ubicacion de algo en la pagina
+en MARGIN por ejemplo en main le decimos en el eje Y ( de arriba abajo el primer valor es Y) es de 40px y el eje X ( de izq a dcha,
+el segundo valor ) es de 100px
+*/
+
+/*
+ existe la propiedad MIN-HEIGHT lo cual le dice al main que como minimo tiene 200vh, esto hace que si tiene mas de ese tamaño
+ el texto o el conenido , el main se ajuste a lo que necesite. 
+ si tenemos el height solo no va a acomodarse automaticamente y no se va a estirar al largo del contenido de la pagina
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* con esto le dijimos que " TODA LA PAGINA" no tenga padding ni margin*/
+/* 
+padding -> relleno ( dentro de cajita)
+margin -> margen  (fuera de la cajita)
+*/
+
+
+h1 {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+/* con border le dijimos que H1 tenga un borde, de 1px y color negro, y con el padding le dijimos que tenga un tamaño de
+relleno de 20px de tamaño*/
+
+body {
+    background-color: tomato;
+}
+
+H2,li { 
+    margin-bottom: 20px;
+}
+/* aca le estamos diciendo que entre el H2 y el contenido tengo un espacio ed 20px, el ESPACIADO entre lineas*/
+/* para que 2 etiquetas queremos que tengan las mismas propiedades, en vez de hacer 2 listados con las mismas prop, 
+las agrupamos en el mismo separandolos con una coma como esta puesto arriba, si queremos se puede agregar muchas mas
+etiquetas si asi queremos*/
+
+ul {
+  margin-left: 20px;
+  list-style:georgian;
+}
+/* todo lo visible se puede cambiar, en UL donde estan los listados, podemos correrlos del margen con la prop. MARGIN-LEFT;
+podemos cambiarles los puntos de listado con LIST-STYLE */
+
+

@@ -1,0 +1,21 @@
+/*vamo a instalar una extension "live server"*/
+body{
+    background-color: aqua;
+    background-image: "" ;
+    font-family: "poppins,sans-serif";
+}
+
+h2 {
+    color:blue;
+    /*font-family: "Gill Sans","Gill Sans MT", Calibri, "trebuchet MS", sans-serif;
+    
+    si queremos agregar otro tipo de fuente en por ejemplo," H2 " se le agrega el cambio aca adentro, es cascada*/
+
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.subtitle-diff {
+    color:tomato
+}

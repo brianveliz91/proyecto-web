@@ -1,0 +1,48 @@
+/*
+CSS -> Hoja de estilos en cascada
+Selectores -> una forma de llamar los elementos HTML desde CSS 
+- POR ETIQUETA
+- POR CLASE
+- POR ID (no se suele usar) define un identificador unico
+ /*
+
+/*selector por etiquetas, ponemos la etiqueta que queremos modificar en html*/
+/*hay que linkear este archivo con el index, en index vamos a agregar la etiqueta <link rel="style"
+
+jerarquias
+- los estilos que mas peso tiene son los estilos en linea
+  el estilo en linea es el atributo que se le agrego dentro de la etiqueta en html
+  se recomiento no trabajar los estilos en linea
+
+- los estilos se aplican por cascada
+
+* el asterisco es selector universal y le da formato a todo , si le decimos que " * { text-align:center} " esto centra toda la pagina
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+h2 {
+    color:green;
+ /*lo que digo aca es que el h2 sea verde*/
+ text-align: center;
+}
+
+/* otro selector es ROOT y significa raiz, y en css podemos guardar informacion en variables ( espacio reservado en memorias - cajitas)*/
+
+:root {
+ --color-primario: blue;
+ --color-secundario: yellowgreen ; 
+}
+/*si quiero usarlo en otro selector*/
+p {
+  color var(--color-primario)
+}
