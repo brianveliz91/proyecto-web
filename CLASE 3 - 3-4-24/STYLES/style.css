@@ -31,9 +31,10 @@ jerarquias
 
 
 h2 {
-    color:green;
+    color:blue;
  /*lo que digo aca es que el h2 sea verde*/
  text-align: center;
+ 
 }
 
 /* otro selector es ROOT y significa raiz, y en css podemos guardar informacion en variables ( espacio reservado en memorias - cajitas)*/

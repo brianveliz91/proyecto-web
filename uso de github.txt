@@ -1,0 +1,18 @@
+git bash comandos
+
+git init - inicializa un repositorio local
+
+git add . - se asegura que esten todos los cambios en cola, el punto final quiere decir TODO
+
+git status - te muestra el estado de encolado de archivos
+
+git commit -m "add: nombre de ejemplo" se le da nombre al commit
+
+git log vemos los commit que hicimos historial
+
+git commit remote . aca vamos a ir a la pagina de git nuetra, y creamos un nuevo repositorio.  
+creamos uno nuevo.
+
+git push origin master
+
+(me salio mirando el instructivo que me mostro github)
