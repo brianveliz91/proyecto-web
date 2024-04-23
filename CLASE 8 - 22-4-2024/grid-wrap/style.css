@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* flex-wrap -> reorganiza el contenido basandose en el ancho de la pantalla
+  
+   grid -> grilla : se pone en contenedor padre
+
+
+
+*/
+
+.cont-cards {
+    max-width: 800px;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+/*
+
+1fr: 1 fraccion
+grid-template.columns: es donde vos le decis la cantidad de columnas y espacio que necesitas entre columna y columna.
+repeat () es para decirle cuantas fracciones necesitamos solo poniendo el numero deseado y las fracciones
+
+
+*/
+
+.card {
+
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: yellowgreen;
+}
+
+.card img {
+    width: 100%;
+    
+}

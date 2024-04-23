@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+pseudoclases -> estilos para eventos de elementos html
+*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+h1,h2 {
+    color: gray;
+}
+
+a { 
+    text-decoration: none;
+    color:blue;
+}
+
+/* */
+a:hover {
+ background-color: #;
+}
+
+imput {
+    padding: 5px;
+    border: 1px solid ;
+}
+
