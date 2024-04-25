@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    background: yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+section div {
+    background-color: violet;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.static {
+    position: static;
+
+}
+/*
+position static , hace que el elemento que le das esta propiedad quede en esa posicion aun que le des otra instruccion
+*/
+
+.relative {
+  position: relative;
+  left: 30px;
+}
+/*
+position relative, por si solo no hace nada, pero si le das instrucciones lo moves a la posicion que le digas, por ej: left:30px
+*/
+
+.absolute {
+    position: bsolute;
+}
+/*
+position aboslute, le da la profundidad (3d) trabaja en el eje Z, hay que darles instrucciones para que se muestre en los niveles que queres que se encuentre o si se quiere por detras/delante de otras cosas por ej: Z-INDEX:   
+se posiciona en base al RELATIVE mas cercano
+si le decimos right:0 se va a ir a la punta sup derecha, si le decimos tambien bottom:0 se va a ir a la esquina inferior derecha
+SIRVE UN MONTON
+*/
+
+/*
+POSITION:FIXED; significa valor fijado, tambien se relaciona con la posicion mas cercana de relative. 
+fixed , fija el boton o la cajita con la pagina web , muevas donde te muevas va a seguir estando en la misma posicion
+por ejemplo se usa para el icono de whatsap en las paginas, o los chat
+*/
+
+/*
+position:sticky; es una mezcla de relative y fixed, por ejemplo en una tabla con scroll queremos que el titulo nos acompañe sin desaparecer.
+
+*/
